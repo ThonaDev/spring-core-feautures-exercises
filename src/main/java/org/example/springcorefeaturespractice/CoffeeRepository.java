@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.ArrayList;
 
 @Configuration
-public class CoffeeConfig {
+public class CoffeeRepository {
 
     @Bean
     public Coffee coffee1() {
