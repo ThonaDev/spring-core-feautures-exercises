@@ -19,5 +19,4 @@ public class SpringCoreFeaturesPracticeApplication {
             System.out.println(bean);
         }
     }
-
 }
