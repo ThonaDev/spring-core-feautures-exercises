@@ -10,7 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Coffee {
-    private int code;
+    private String code;
     private String name;
     private double price;
     private boolean isAvailable;

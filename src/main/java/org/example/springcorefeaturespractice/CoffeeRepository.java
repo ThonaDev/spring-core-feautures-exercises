@@ -10,17 +10,17 @@ public class CoffeeRepository {
 
     @Bean
     public Coffee coffee1() {
-        return new Coffee(101, "Ice Latte", 4500.0, true);
+        return new Coffee("B-101", "Ice Latte", 4500.0, true);
     }
 
     @Bean
     public Coffee coffee2() {
-        return new Coffee(102, "Ice Americano", 6000.0, false);
+        return new Coffee("B-102", "Ice Americano", 6000.0, false);
     }
 
     @Bean
     public Coffee coffee3() {
-        return new Coffee(103, "Coconut Ice Coffee", 5000.0, true);
+        return new Coffee("B-103", "Coconut Ice Coffee", 5000.0, true);
     }
 
     @Bean
