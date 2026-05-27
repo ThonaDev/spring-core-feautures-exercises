@@ -1,0 +1,12 @@
+management:
+  # used in order to allow getting information about our app
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,beans
+      # include: '*' // Avoid using this on prod
+server:
+  port: 8080
